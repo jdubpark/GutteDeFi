@@ -20,17 +20,25 @@ Various Attacks on Decentralized Finance, where the term "Post-Mortem" is an acc
 
 ** Any Loss over **$10 million or 5000 ETH is bolded** (calculated at $2000 per ETH)
 
+** Some Post-Mortems are taken down after being released, so the links may not always work (in such case, use Wayback).
+
 
 
 ## DeFi Attacks<a id="attacks"></a>
 
-**Last Update: July 8, 2021**
+**Last Update: July 17, 2021**
 
 | Date | Targeted Protocol                  | Exploited/Lost                                       | Post-Mortem                                                  | Analysis                                                     |
 | ---- | ---------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ——   | **[END OF 2021]**                  | ——                                                   | ——                                                           | ——                                                           |
-|      | TOTAL LOSS (so far)                | *~ **$620 mln*** <br />+ ***$300 mln*** Venus        |                                                              |                                                              |
+|      | TOTAL LOSS (so far)                | *~ **$660 mln*** <br />+ ***$300 mln*** Venus        |                                                              |                                                              |
 | ——   | **[Jul 2021]**                     | ——                                                   | ——                                                           | ——                                                           |
+| 15th | BONDLY (MantraDAO)                 | **$22 mln**                                          | [Official](https://medium.com/mantra-dao/bondly-exploit-how-it-unfolded-on-zenterest-postmortem-d8120d8d784b) |                                                              |
+|      | THORChain                          | $5 mln (4000 ETH - slippage)                         | [Twitter](https://twitter.com/THORChain/status/1415899790043271171) |                                                              |
+| 11th | ChainSwap (2nd)                    | $4 mln                                               | [Official](https://chain-swap.medium.com/chainswap-exploit-11-july-2021-post-mortem-6e4e346e5a32) |                                                              |
+| 10th | AnySwap                            | $7.9 mln                                             | [Official](https://anyswap.medium.com/anyswap-multichain-router-v3-exploit-statement-6833f1b7e6fb) |                                                              |
+| 2nd  | ChainSwap (1st)                    | $800k                                                | [Official](https://chain-swap.medium.com/chainswap-post-mortem-and-compensation-plan-90cad50898ab) |                                                              |
+|      |                                    | *TOTAL $40 mln*                                      |                                                              |                                                              |
 | ——   | **[Jun 2021]**                     | ——                                                   | ——                                                           | ——                                                           |
 | 29th | Merlin Labs (3th)                  | $330k<br />[total $1.6 mln]                          | gone?                                                        | [PeckShield](https://twitter.com/peckshield/status/1409808532040343558), [rekt](https://www.rekt.news/merlin3-rekt/) |
 | 28th | SafeDollar                         | $250k                                                | [Official](https://safedollar.medium.com/safedollar-post-mortem-analysis-cb2769fe059) |                                                              |
@@ -38,7 +46,7 @@ Various Attacks on Decentralized Finance, where the term "Post-Mortem" is an acc
 | 21st | Impossible Finance                 | $500k                                                | [Official](https://medium.com/impossiblefinance/impossible-finance-v2-swap-jun-21st-postmortem-94e4b59ad490) | [Knownsec](https://medium.com/@Knownsec_Blockchain_Lab/one-thought-of-heaven-one-thought-of-hell-impossible-finance-lightning-loan-attack-incident-dd7b921a174c) |
 | 19th | Visor Finance                      | $500k                                                | [Official](https://visorfinance.medium.com/visor-beta-incident-report-1b2521b9266) |                                                              |
 | 3rd  | PancakeHunny                       | $86k                                                 | [Official](https://medium.com/pancakehunny/pancakehunny-preliminary-incident-report-6da18bc3c0e6) |                                                              |
-|      |                                    | *TOTAL $6mln*                                        |                                                              |                                                              |
+|      |                                    | *TOTAL $6 mln*                                       |                                                              |                                                              |
 | ——   | **[May 2021]**                     | ——                                                   | ——                                                           | ——                                                           |
 | 30th | Belt Finance                       | **$50 mln**                                          | [Official](https://medium.com/belt-finance/may-29-incident-report-865d20cc46ca) | [Knownsec](https://medium.com/@Knownsec_Blockchain_Lab/knownsec-blockchain-lab-belt-finance-attack-event-analysis-b0ba64b100bd), [rekt](https://rekt.news/belt-rekt/) |
 | 28th | Burgerswap                         | $7.2 mln                                             | [Decrypt](https://decrypt.co/72194/burgerswap-explains-7-2-million-flash-loan-attack-in-post-mortem?utm_source=reddit&utm_medium=social&utm_campaign=sm) |                                                              |
