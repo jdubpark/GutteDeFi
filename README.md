@@ -26,13 +26,15 @@ Various Attacks on Decentralized Finance, where the term "Post-Mortem" is an acc
 
 ## DeFi Attacks<a id="attacks"></a>
 
-**Last Update: July 17, 2021**
+**Last Update: July 23, 2021**
 
 | Date | Targeted Protocol                  | Exploited/Lost                                       | Post-Mortem                                                  | Analysis                                                     |
 | ---- | ---------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ——   | **[END OF 2021]**                  | ——                                                   | ——                                                           | ——                                                           |
 |      | TOTAL LOSS (so far)                | *~ **$660 mln*** <br />+ ***$300 mln*** Venus        |                                                              |                                                              |
 | ——   | **[Jul 2021]**                     | ——                                                   | ——                                                           | ——                                                           |
+| 22nd | THORChain (2nd)                    | $800k ($8 mln hacked, <br />white hacker 10%)        | [Official Twitter](https://twitter.com/THORChain/status/1418360746329608195) |                                                              |
+| 16th | PancakeBunny (2nd)                 | $2.1 mln                                             | [Official](https://pancakebunny.medium.com/polybunny-post-mortem-compensation-42b5c35ce957) |                                                              |
 | 15th | BONDLY (MantraDAO)                 | **$22 mln**                                          | [Official](https://medium.com/mantra-dao/bondly-exploit-how-it-unfolded-on-zenterest-postmortem-d8120d8d784b) |                                                              |
 |      | THORChain                          | $5 mln (4000 ETH - slippage)                         | [Twitter](https://twitter.com/THORChain/status/1415899790043271171) |                                                              |
 | 11th | ChainSwap (2nd)                    | $4 mln                                               | [Official](https://chain-swap.medium.com/chainswap-exploit-11-july-2021-post-mortem-6e4e346e5a32) |                                                              |
