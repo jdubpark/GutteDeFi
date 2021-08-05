@@ -26,12 +26,14 @@ Various Attacks on Decentralized Finance, where the term "Post-Mortem" is an acc
 
 ## DeFi Attacks<a id="attacks"></a>
 
-**Last Update: July 23, 2021**
+**Last Update: Aug 5, 2021**
 
 | Date | Targeted Protocol                  | Exploited/Lost                                       | Post-Mortem                                                  | Analysis                                                     |
 | ---- | ---------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ——   | **[END OF 2021]**                  | ——                                                   | ——                                                           | ——                                                           |
-|      | TOTAL LOSS (so far)                | *~ **$660 mln*** <br />+ ***$300 mln*** Venus        |                                                              |                                                              |
+|      | TOTAL LOSS (so far)                | *~ **$680 mln*** <br />+ ***$300 mln*** Venus        |                                                              |                                                              |
+| ——   | **[Aug 2021]**                     | ——                                                   | ——                                                           | ——                                                           |
+| 4th  | Popsicle Finance                   | **$20 mln**                                          | [Official](https://popsiclefinance.medium.com/popsicle-finance-post-mortem-after-fragola-hack-f45b302362e0) |                                                              |
 | ——   | **[Jul 2021]**                     | ——                                                   | ——                                                           | ——                                                           |
 | 22nd | THORChain (2nd)                    | $800k ($8 mln hacked, <br />white hacker 10%)        | [Official Twitter](https://twitter.com/THORChain/status/1418360746329608195) |                                                              |
 | 16th | PancakeBunny (2nd)                 | $2.1 mln                                             | [Official](https://pancakebunny.medium.com/polybunny-post-mortem-compensation-42b5c35ce957) |                                                              |
