@@ -1,20 +1,18 @@
-# A Collection of DeFi Attack Cases
+# All the Gutted DeFi Projects
 
-Various Attacks on Decentralized Finance, where the term "Post-Mortem" is an acceptable(?) norm
-
-*Similar compilation*: [OpenBlockSec](https://github.com/openblocksec/blocksec-incidents/blob/main/defi/2021.md); [OpenZeppelin Post-Mortems](https://forum.openzeppelin.com/t/list-of-ethereum-smart-contracts-post-mortems/1191); [rekt.news](); [Halborn](https://halborn.com/category/explained-hacks/)
-
-[Interesting Hack Loss Leaderboard](https://www.rekt.news/leaderboard/) (from rekt.news)
+Documenting the Attacks on Decentralized Finance, where the term "Post-Mortem" is a unfortunate norm
 
 
 
 #### Table of Content
 
 - [DeFi Attacks](#attacks)
-- [Exit Scams (Rug Pulls) & Bank Runs](#exits)
-- [Trivial & Unannounced](#trivial)
+- [Miscellaneous](#misc)
+- [Other Resources](#other)
 
 
+
+** *No Rug Pulls & Scams Included* 
 
 ** *Exploited/Lost* calculates the lost value based on exchange rate at the time. Many times, the loss is presented in USD value since multiple tokens are lost.
 
@@ -26,14 +24,14 @@ Various Attacks on Decentralized Finance, where the term "Post-Mortem" is an acc
 
 ## DeFi Attacks<a id="attacks"></a>
 
-**Last Update: Aug 5, 2021**
+**Last Update: Aug 8, 2021**
 
 | Date | Targeted Protocol                  | Exploited/Lost                                       | Post-Mortem                                                  | Analysis                                                     |
 | ---- | ---------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ——   | **[END OF 2021]**                  | ——                                                   | ——                                                           | ——                                                           |
-|      | TOTAL LOSS (so far)                | *~ **$680 mln*** <br />+ ***$300 mln*** Venus        |                                                              |                                                              |
+|      | TOTAL LOSS (so far)                | *~ **$685 mln*** <br />+ ***$300 mln*** Venus        |                                                              |                                                              |
 | ——   | **[Aug 2021]**                     | ——                                                   | ——                                                           | ——                                                           |
-| 4th  | Popsicle Finance                   | **$20 mln**                                          | [Official](https://popsiclefinance.medium.com/popsicle-finance-post-mortem-after-fragola-hack-f45b302362e0) |                                                              |
+| 4th  | Popsicle Finance                   | **$25 mln**                                          | [Official](https://popsiclefinance.medium.com/popsicle-finance-post-mortem-after-fragola-hack-f45b302362e0) | Flash Loan                                                   |
 | ——   | **[Jul 2021]**                     | ——                                                   | ——                                                           | ——                                                           |
 | 22nd | THORChain (2nd)                    | $800k ($8 mln hacked, <br />white hacker 10%)        | [Official Twitter](https://twitter.com/THORChain/status/1418360746329608195) |                                                              |
 | 16th | PancakeBunny (2nd)                 | $2.1 mln                                             | [Official](https://pancakebunny.medium.com/polybunny-post-mortem-compensation-42b5c35ce957) |                                                              |
@@ -136,42 +134,28 @@ Various Attacks on Decentralized Finance, where the term "Post-Mortem" is an acc
 |      | *TOTAL LOSS*                       | ~ ***$2.5 mln***                                     |                                                              |                                                              |
 | ——   | **[Dec 2019]**                     | ——                                                   | ——                                                           | ——                                                           |
 | 26th | Synthetix                          | $2.5 mln                                             |                                                              | [TheBlock](https://www.theblockcrypto.com/daily/57620/a-post-mortem-how-market-manipulation-left-synthetix-stakers-with-over-1m-in-debt) |
-|      |                                    | *TOTAL **$2.5 mln***                                 |                                                              |                                                              |
+|      |                                    | *TOTAL $2.5 mln*                                     |                                                              |                                                              |
 | ——   | **[Jun 2019]**                     | ——                                                   | ——                                                           | ——                                                           |
 | 24th | Synthetix                          | **37 mln sETH <br />($74 bln @ $2,000/sETH)**        |                                                              | [TheBlock](https://www.theblockcrypto.com/linked/28748/synthetix-suffers-oracle-attack-potentially-looting-37-million-synthetic-ether), [Etherscan](https://etherscan.io/tx/0x93819f6bbea390d7709fa033f5733d16418674e99c43b9ed23adb4110d657f0c) |
 |      |                                    | *TOTAL **$74 bln***                                  |                                                              |                                                              |
 
 
 
-## Exit Scams (Rug Pulls) & Bank Runs<a id="exits"></a>
+## Miscellaneous<a id="misc"></a>
 
-**Last Update: June 30, 2021**
-
-| Date | Targeted Protocol        | Exploited/Lost                 | Analysis                                                     | Note                                                         |
-| ---- | ------------------------ | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|      | **[June 2021]**          |                                |                                                              |                                                              |
-| 24th | **StableMagnet**         | **$27 mln**                    | [bsc.news](https://www.bsc.news/post/stablemagnet-and-others-rugpull-22m-in-stablecoin-through-unverified-swap-code) |                                                              |
-| 16th | **Iron Finance & TITAN** | **$2 bln**<br />(+ Mark Cuban) | [rekt](https://www.rekt.news/iron-finance-rekt/), [Jeiwan](https://jeiwan.net/posts/analysis-titan-fall/) | **Bank-run**<br />[Official Post-Mortem](https://ironfinance.medium.com/iron-finance-post-mortem-17-june-2021-6a4e9ccf23f5) |
-|      |                          |                                |                                                              |                                                              |
-|      | **[May 2021]**           |                                |                                                              |                                                              |
-| 24th | **DeFi100**              | **$32 mln**                    |                                                              |                                                              |
-|      |                          |                                |                                                              |                                                              |
-|      | **[Nov 2020]**           |                                |                                                              |                                                              |
-| 10th | **Sharktron**            | **$10 mln**                    | [Bitcoin.com](https://news.bitcoin.com/sharktron-defi-project-devs-exit-scam-tron-foundation-says-part-of-missing-funds-now-frozen/) |                                                              |
-
-#### Rug Puts??
-
-| Date | Targeted Protocol | Exploited/Lost | Post-Mortem                                                  | Analysis                                                     | Note                                              |
-| ---- | ----------------- | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------- |
-|      | **[Jun 2021]**    |                |                                                              |                                                              |                                                   |
-| 21st | Alchemix          | $6.5 mln       | [Official 1](https://forum.alchemix.fi/public/d/137-incident-report-06162021), [Official 2](https://alchemixfi.medium.com/alchemix-farm-migration-post-mortem-and-aleth-update-78c6dd98e3f5) | [SlowMist](https://slowmist.medium.com/slowmist-alchemix-hack-analysis-e8c9ec6c2ee3), [rekt](https://www.rekt.news/alchemix-rekt/) | Reward calcultion error,<br />users received more |
+| Date | Targeted Protocol             | Exploited/Lost                 | Post-Mortem                                                  | Analysis                                                     | Note                                              |
+| ---- | ----------------------------- | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------- |
+|      | **[Jun 2021]**                |                                |                                                              |                                                              |                                                   |
+| 21st | Alchemix                      | $6.5 mln                       | [Official 1](https://forum.alchemix.fi/public/d/137-incident-report-06162021), [Official 2](https://alchemixfi.medium.com/alchemix-farm-migration-post-mortem-and-aleth-update-78c6dd98e3f5) | [SlowMist](https://slowmist.medium.com/slowmist-alchemix-hack-analysis-e8c9ec6c2ee3), [rekt](https://www.rekt.news/alchemix-rekt/) | Reward calcultion error,<br />users received more |
+| 16th | Iron Finance & TITAN          | **$2 bln**<br />(+ Mark Cuban) | [Official](https://ironfinance.medium.com/iron-finance-post-mortem-17-june-2021-6a4e9ccf23f5) | [rekt](https://www.rekt.news/iron-finance-rekt/), [Jeiwan](https://jeiwan.net/posts/analysis-titan-fall/) | **Bank-run**<br />                                |
+|      | **[Feb 2020]**                |                                |                                                              |                                                              |                                                   |
+| 27th | Andre Cronje of yearn.finance | $562k                          | [Andre Cronje](https://andrecronje.medium.com/post-mortem-28-02-2020-6d675a85a33b) |                                                              |                                                   |
 
 
 
-## Trivial & Unannounced<a id="trivial"></a>
+# Other Resources<a id="other"></a>
 
-| Date | Targeted Protocol             | Chain | Exploited/Lost | Post-Mortem                                                  | Analysis |
-| ---- | ----------------------------- | ----- | -------------- | ------------------------------------------------------------ | -------- |
-|      | [Feb 2020]                    |       |                |                                                              |          |
-| 27th | Andre Cronje of yearn.finance |       | $562k          | [Andre Cronje](https://andrecronje.medium.com/post-mortem-28-02-2020-6d675a85a33b) |          |
+*Similar compilation*: [OpenBlockSec](https://github.com/openblocksec/blocksec-incidents/blob/main/defi/2021.md); [OpenZeppelin Post-Mortems](https://forum.openzeppelin.com/t/list-of-ethereum-smart-contracts-post-mortems/1191); [rekt.news](); [Halborn](https://halborn.com/category/explained-hacks/)
+
+[Interesting Hack Loss Leaderboard](https://www.rekt.news/leaderboard/) (from rekt.news)
 
